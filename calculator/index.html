@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="wholepage">
+<h1>Calculator App</h1>
+<input type="text" size="30" id="inputString" readonly />
+<table border="1">
+<tr>
+   <td><input type="button" value="7" onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="8" onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="9" onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="+" onclick="updateString(this.value)" /></td>
+</tr>
+<tr>
+   <td><input type="button" value="4" onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="5" onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="6" onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="-" onclick="updateString(this.value)" /></td>
+</tr>
+<tr>
+   <td><input type="button" value="3" onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="2" onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="1" onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="*" onclick="updateString(this.value)" /></td>
+</tr>
+<tr>
+   <td><input type="button" value="0" onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="." onclick="updateString(this.value)" /></td>
+   <td><input type="button" value="C" onclick="resetString()"/></td>
+   <td><input type="button" value="=" onclick="calculate()" /></td>
+</tr>
+</table>
+  
+</div>
+<footer>&copy; Coded by Ng Kok Wah</footer>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
